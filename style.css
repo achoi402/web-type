@@ -1,32 +1,29 @@
 * {
-	
+	color: white;
+}
+
+.aboutme {
+	line-height: 1em;
 }
 
 h1 {
-	font-family: ohno-blazeface, sans-serif;
-	font-weight: 100;
-	font-style: italic;
-	font-size: 200px
-	
+	font-family: narly-outline, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100px;
 
-	text-align: left;
-	color: #00000;
 	margin-left: 5%;
 	padding-top: 5%;
-		
+			
 }
 
-href {
-	color: white;
-}
-	
 
 body {
 	background: rgb(255,215,219);
-	background: linear-gradient(0deg, rgba(255,215,219,1) 37%, rgba(149,173,214,1) 100%);
+	background: linear-gradient(0deg, rgba(255,215,219,1) 15%, rgba(149,173,214,1) 100%);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100vw;
+	width: auto;
 	height: 100vh;
 	/*background-color: #008FBE;*/
 
@@ -34,21 +31,26 @@ body {
 	font-family: bilo, sans-serif;
 	font-weight: 100;
 	font-style: normal;
+	padding: 5% 10% 5% 10%;
 }
 
 
 
 .desc {
 	
-	font-family: bilo, sans-serif;
-	font-weight: 100;
+	font-family: narly, sans-serif;
+	font-weight: 700;
 	font-style: normal;
-	font-size: 20px;
+	font-size: 50px;
+	color: white;
 
-	line-height: 1em;
+	/* line-height: 1em; */
 	margin-left: 5%;
+	margin-top: -3%;
+
 
 }
+
 
 #exercises {
 	margin-left: 5%;
