@@ -1,4 +1,4 @@
- *{
+ * {
     font-family: bely-display, serif;
     font-weight: 400;
     font-style: normal;
@@ -6,66 +6,174 @@
     font-family: bely, serif;
     font-weight: 400;
     font-style: normal;
- }      
-       
-       
+
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: italic;
+
+    font-family: bely, serif;
+    font-weight: 700;
+    font-style: normal; s
+ }   
+
+ #title {
+    font-family: bely-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 5%;
+}
+.movie-title {
+    font-family: bely-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    margin: 5%;
+}
+.about {
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 15px;
+    margin: 5%;
+}
+
+#quote{
+    font-family: bely, serif;
+    font-weight: 700;
+    font-style: bold; 
+    font-size: 20px;
+    margin: 6%;
+}
+.date {
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    margin: 7%
+}
+
+.question {
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    color: white;
+    margin: 7%
+}
+.answer {
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    color: gray;
+    margin: 7%
+    /* position: relative; */
+    /* visibility: hidden; */
+}
+
+
+
+        .fixed {
+            /* background-position: fixed; */
+            position: fixed;
+        }
+
        .item1 { 
-            grid-area: 60% header; 
-            width: 30vw;
+            grid-area: header; 
+            width: 25vw;
+            length: 10vh;
             background-color: #ffe800;
+
+            font-family: bely-display, serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+            /* background-position: fixed;
+            position: fixed; */
+            position: relative;
+
             }
         .item2 { 
             grid-area: menu; 
-            width: 30vw;
+            width: 25vw;
             background-color: #ff40b4;
+            background-position: fixed;
+            position:static;
+            
         }
-        .item3 { 
-            /* grid-area: 0;  */
+
+        .about {
+            text-align: left;
+            margin: 7%;
+            font-size: 20px;
+        }
+        .item3 {  
+                grid-area: main;
                 width: 30vw;
                 background-color: #f5333f;
         }
-        .item4 { grid-area: 100%; 
-                width: 36vw;
+    
+        .item4 { 
+                grid-area: right; 
+                width: 41.5vw;
                 background-color: #0082ca;
         }
-        .item5 { grid-area: footer; 
-            font-size: 12px;
+        .item5 { 
+            grid-area: footer; 
+
         }
+
+        .item6 {  
+            grid-area: menu;
+            width: 25vw;
+            background-color: #f5333f;
+          }
+
+        .item7 {
+            grid-area: main;
+            width: 30vw;
+            background-color:  #00ae8d;
+        }
+
+        .item3.item7 {
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        
         
         .grid-container {
           display: grid;
           grid-template-areas:
-            'header header header header header header'
+            'header main main main right right'
             'menu main main main right right'
-            'menu footer footer footer footer footer';
+            'menu main main main footer footer';
           grid-gap: 10px;
           background-color: black;
           padding: 10px;
         }
         
-        .grid-container > div {
+        /* .grid-container > div {
           /* background-color: rgba(255, 255, 255, 0.8); */
+          .grid-container > div {
           text-align: left;
-          padding: 20px 0;
-          margin: 0;
+          padding: 10px 0;
           font-size: 20px;
-        }
-h1 {
-    text-align:left;
-    margin: 5%;
+        } 
 
+.main-title {
+    text-align:left;
+    margin: 10%;
+
+    /* font-family: bely-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px; */
+}
+
+
+.movie-title {
     font-family: bely-display, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
-
-}
-.about{
-    text-align: left;
-    margin: 5%;
-}
-.p {
-    margin: 5%;
-    padding: 10%;
-    font-size: 20px;
 }
