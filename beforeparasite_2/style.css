@@ -1,0 +1,77 @@
+* {
+    font-family: bely-display, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title {
+    font-size: 220px;
+    padding: 10%;
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+
+#description {
+    font-size: 50px;
+    padding: 10%;
+    margin-top: -7%;
+    margin-bottom: -7%;
+}
+
+.grid-container {
+    /* display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat (8, 1fr);
+    grid-template-rows:repeat (6, 1fr); */
+    /* row-gap: 1px;
+    /* grid-auto-rows: 500px; */
+    /* grid-template-areas: 
+        'title title title title title title'
+        'side date date main main main'
+        'side date date black black black'; */
+    grid-template-rows: 60 40;
+    grid-template-column: auto;
+    grid-template-area:
+    "title title title title"
+    "footer footer footer footer";
+
+
+    grid-gap: 1px;
+    row-gap: 2px;
+    background-color: black;
+    padding: 5px;
+  }
+  
+  .grid-container > div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    border: 1px solid black;
+    text-align: left;
+    /* font-size: 30px; */
+  }
+
+  .item1 {
+      grid-area: 'title';
+      /* width: 98vw; */
+      background-color: #ffe800;
+  }
+  .item4 {
+      background-color: #ff40b4;
+  }
+
+  /* .item2 {
+    grid-area: 'date';
+    justify-self:flex-start;
+    width: 35vw;
+}
+
+.item3 {
+    grid-area:'main';
+    justify-self: flex-end;
+    width: 40vw;
+} */
+
+.item4 {
+    grid-area: 'side';
+    justify-self: 
+}
+  

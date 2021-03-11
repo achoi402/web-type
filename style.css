@@ -1,3 +1,7 @@
+* {
+	
+}
+
 h1 {
 	font-family: ohno-blazeface, sans-serif;
 	font-weight: 100;
@@ -7,15 +11,12 @@ h1 {
 
 	text-align: left;
 	color: #00000;
+	margin-left: 5%;
+	padding-top: 5%;
+		
 }
 
-h1 {
-	font-size: 200px
 	
-
-	text-align: left;
-	color: #00000;
-}
 
 body {
 	background: rgb(255,215,219);
@@ -30,12 +31,11 @@ body {
 	font-family: bilo, sans-serif;
 	font-weight: 100;
 	font-style: normal;
-
 }
 
 
 
-body {
+.desc {
 	
 	font-family: bilo, sans-serif;
 	font-weight: 100;
@@ -43,10 +43,17 @@ body {
 	font-size: 20px;
 
 	line-height: 1em;
+	margin-left: 5%;
 
 }
 
+#exercises {
+	margin-left: 5%;
+}
 
+#projects {
+	margin-left: 5%;
+} 
 
 p {
 	font-size: 20px;
