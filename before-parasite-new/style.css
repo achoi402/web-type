@@ -1,3 +1,18 @@
+@font-face {
+    font-family: GT_Sectra_Bold;
+    src: url(GT_Sectra_Bold.otf);
+}
+
+@font-face {
+    font-family:GeographTest_Regular;
+    src: url(GeographTest_Regular.otf)
+}
+
+@font-face {
+    font-family: DomaineDisplayTest-Regular;
+    src: url(DomaineDisplayTest-Regular.otf)
+}
+
 .container {
     display: flex;
     overflow: auto;
@@ -14,6 +29,10 @@
     height: auto;
     position: fixed;
     row-gap: 7px;
+}
+
+#title {
+    margin-block-start: 0;
 }
 
 .item1 {
@@ -39,7 +58,7 @@
     background-color: #ff40b4;  
     overflow:scroll;
     width: 20vw;
-    height: 80vh;
+    height: 78.5vh;
     padding:3%;
     flex-wrap: wrap;
     line-height: 1.5;
@@ -82,32 +101,32 @@
 
 #date1 {
     background-color:#F5333F;
-    height: 30vh;
+    height: 35vh;
 }
 
 #date2 {
     background-color:#00AE8D;
-    height: 30vh;
+    height: 35vh;
 }
 
 #date3 {
     background-color:#C19ADE;
-    height: 30vh;
+    height: 35vh;
 }
 
 #date4 {
     background-color:#00AE42;
-    height: 30vh;
+    height: 35vh;
 }
 
 #date5 {
     background-color:#0082CA;
-    height: 30vh;
+    height: 35vh;
 }
 
 #date6 {
     background-color:#F3B2DB;
-    height: 30vh;
+    height: 32vh;
 }
 
 
@@ -135,7 +154,7 @@ h2 {
 .question {
     background-color: black;
     width: 43.25vw;
-    height: 9vh;
+    height: 20vh;
     color: white;
     font-size: 30px;
     padding: 3%;
@@ -149,11 +168,11 @@ h2 {
 }   
 
 .movie {
-    padding: 3%;
+    padding: 4%;
 }
 .movie1 {
     background-color: #0082CA;
-    height:33.25vh;
+    height:38.25vh;
     overflow: auto;
 }
 
@@ -165,31 +184,66 @@ h2 {
 
 .movie2 {
     background-color: #5C0F8B;
-    height:33.25vh;
+    height:38.25vh;
     overflow: auto;
+}
+
+#tale {
+    font-family: DomaineDisplayTest-Regular;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .movie3 {
     background-color: #F5333F;
-    height:33.25vh;
+    height:38.25vh;
     overflow:auto;
+}
+
+#memories {
+    font-family: GeographTest_Regular, sans-serif;
+    font-weight: 400;
+    font-style; normal;
 }
 
 .movie4 {
     background-color: #FFE800;
-    height:33.25vh;
+    height:38.25vh;
     overflow:auto;
+}
+
+#taxi {
+    font-family: covik-sans,sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .movie5 {
     background-color: #FF6B00;
-    height:33.25vh;
+    height:38.25vh;
     overflow:auto;
 }
 
+#ode {
+    font-family: GT_Sectra_Bold;
+    font-weight: 700;
+    font-style: normal;
+}
+ 
 .movie6 {
     background-color: #00AE8D;
-    height:33.25vh;
+    height:34.25vh;
     overflow:auto;
 }
 
+#sunny {
+    font-family: blenny, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+p {
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: normal;
+}
