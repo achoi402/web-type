@@ -163,12 +163,18 @@ h2 {
 
     font-family: bely, serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: ;
     font-size: 40px;
 }   
 
 .movie {
     padding: 4%;
+}
+
+.director {
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: italic;
 }
 .movie1 {
     background-color: #0082CA;
