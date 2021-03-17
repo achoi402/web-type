@@ -1,0 +1,195 @@
+.container {
+    display: flex;
+    overflow: auto;
+    height: 100vh;
+    background-color: black;
+}
+
+.title-sidebar {
+    display: grid;
+    position: fix;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    width: 25%;
+    height: auto;
+    position: fixed;
+    row-gap: 7px;
+}
+
+.item1 {
+    font-family: bely-display;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+    background-color: #ffe800;
+    width: 20vw;
+    height: 15vh;
+    padding-right: 3%;
+    padding-left: 3%;
+
+}
+
+
+.item2 {
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #ff40b4;  
+    overflow:scroll;
+    width: 20vw;
+    height: 80vh;
+    padding:3%;
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
+
+#quote {
+    font-family: bely, serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.container2 {
+    display: flex;
+    overflow: auto;
+    height: 100vh;
+    background-color: black;
+}
+
+.date-grid {
+    display: grid;
+    left: 22vw;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    width: 30%;
+    height: auto;
+    /* overflow: auto; */
+    color: black;
+
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    row-gap: 7px;
+    position: relative;
+}
+
+.date {
+    padding: 3%;
+}
+
+#date1 {
+    background-color:#F5333F;
+    height: 30vh;
+}
+
+#date2 {
+    background-color:#00AE8D;
+    height: 30vh;
+}
+
+#date3 {
+    background-color:#C19ADE;
+    height: 30vh;
+}
+
+#date4 {
+    background-color:#00AE42;
+    height: 30vh;
+}
+
+#date5 {
+    background-color:#0082CA;
+    height: 30vh;
+}
+
+#date6 {
+    background-color:#F3B2DB;
+    height: 30vh;
+}
+
+
+.movie-grid {
+    display: grid;
+    position: relative;
+    left: 22vw;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    width: 46.25%;
+    height: 20vh;
+    color: black;
+
+    row-gap: 7px;
+
+    line-height: 1.25;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 70px;
+    margin-top: -1%;
+}
+
+.question {
+    background-color: black;
+    width: 43.25vw;
+    height: 9vh;
+    color: white;
+    font-size: 30px;
+    padding: 3%;
+    position: relative;
+    top: -4vh;
+
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+}   
+
+.movie {
+    padding: 3%;
+}
+.movie1 {
+    background-color: #0082CA;
+    height:33.25vh;
+    overflow: auto;
+}
+
+#oldboy {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.movie2 {
+    background-color: #5C0F8B;
+    height:33.25vh;
+    overflow: auto;
+}
+
+.movie3 {
+    background-color: #F5333F;
+    height:33.25vh;
+    overflow:auto;
+}
+
+.movie4 {
+    background-color: #FFE800;
+    height:33.25vh;
+    overflow:auto;
+}
+
+.movie5 {
+    background-color: #FF6B00;
+    height:33.25vh;
+    overflow:auto;
+}
+
+.movie6 {
+    background-color: #00AE8D;
+    height:33.25vh;
+    overflow:auto;
+}
+
