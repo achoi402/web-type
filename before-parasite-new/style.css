@@ -12,6 +12,51 @@
     font-family: DomaineDisplayTest-Regular;
     src: url(DomaineDisplayTest-Regular.otf)
 }
+/* 
+img {
+display: flex;
+width: 98.19vw;
+ height: auto;
+ border: 7px solid black;
+} */
+
+.main-title-container {
+    display: flex;
+    width: 98.19vw;
+    height: 75vh;
+    background-color: #ffe800;
+    border: 7px solid black;
+}
+
+#main-title {
+    margin: auto;
+    font-family: bely-display;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 250px;
+    padding: 3%;
+}
+
+.info-container {
+    display: flex;
+    width: 98.19vw;
+    height: auto;
+    background-color: #C19ADE; 
+    border: 7px solid black;
+}
+
+.info {
+    margin: auto;
+    font-family: bely-display;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 3%;
+    color: black;
+    line-height: 1.5;
+
+}
 
 .container {
     display: flex;
@@ -27,7 +72,7 @@
     padding-top: 0.5%;
     width: 25%;
     height: auto;
-    position: fixed;
+    position: absolute;
     row-gap: 7px;
 }
 
@@ -77,17 +122,6 @@
     background-color: black;
 }
 
-/* .gif {
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-}
-
-.img {
-    width: 50%;
-    height: 50%;
-} */
-
 
 .date-grid {
     display: grid;
@@ -116,9 +150,18 @@
     height: 35vh;
 }
 
+#date1:hover {
+    background-image:url(oldbody_final.png)
+    
+}
+
 #date2 {
     background-color:#00AE8D;
     height: 35vh;
+}
+
+#date2:hover {
+    background-image: url(taleoftwo.png);
 }
 
 #date3 {
@@ -126,9 +169,18 @@
     height: 35vh;
 }
 
+#date3:hover {
+    background-image: url(memories_small.png)
+}
+
+
 #date4 {
     background-color:#00AE42;
     height: 35vh;
+}
+
+#date4:hover {
+    background-image: url(taxidriver.png)
 }
 
 #date5 {
@@ -136,9 +188,17 @@
     height: 35vh;
 }
 
+#date5:hover {
+    background-image: url(odetomyfather.png)
+}
+
 #date6 {
     background-color:#F3B2DB;
     height: 32vh;
+}
+
+#date6:hover {
+    background-image: url(sunny.png);
 }
 
 
@@ -171,13 +231,20 @@ h2 {
     font-size: 30px;
     padding: 3%;
     position: relative;
-    top: -4vh;
 
     font-family: bely, serif;
     font-weight: 400;
     font-style: italic;
     font-size: 40px;
 }   
+
+.answer {
+    font-family: bely, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    color: gray;
+}
 
 .movie {
     padding: 4%;
@@ -210,6 +277,7 @@ h2 {
     font-family: DomaineDisplayTest-Regular;
     font-weight: 400;
     font-style: normal;
+    font-size: 65px;
 }
 
 .movie3 {
@@ -222,6 +290,7 @@ h2 {
     font-family: GeographTest_Regular, sans-serif;
     font-weight: 400;
     font-style; normal;
+    font-size: 65px;
 }
 
 .movie4 {
@@ -234,6 +303,7 @@ h2 {
     font-family: covik-sans,sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 80px;
 }
 
 .movie5 {
@@ -246,6 +316,7 @@ h2 {
     font-family: GT_Sectra_Bold;
     font-weight: 700;
     font-style: normal;
+    font-size: 65px;
 }
  
 .movie6 {
@@ -258,6 +329,7 @@ h2 {
     font-family: blenny, sans-serif;
     font-weight: 900;
     font-style: normal;
+    font-size: 75px;
 }
 
 p {
