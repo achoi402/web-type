@@ -58,6 +58,7 @@ body {
     font-size: 100px;
     position: relative;
     top: -15vh;
+    color: black;
 
     align-self: flex-end;
         animation-duration: 2s;
