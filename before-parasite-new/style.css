@@ -76,7 +76,7 @@ body {
 .info {
     display: flex;
     width: 98.19vw;
-    height: 70vh;;
+    height: 80vh;;
     background-color: black;
     border: 3px solid black;
     text-align: center;
@@ -134,7 +134,7 @@ body {
     text-align: left;
     font-size: 25px;
     width: 50vw;
-    height: 62vh;
+    height: 75vh;
 
     font-family: bely, serif;
     font-weight: 400;
@@ -153,14 +153,16 @@ h3 {
     border: 3px solid black;
     background-color: black;
     color: white;
-    padding: 2%;
+    padding: 3%;
     font-size: 25px;
-    height: 62vh;
+    height: 75vh;
     top: -0.1vh;
     text-align: left;
     margin: auto;
     width: 50vw;
     line-height: 1.75;
+    position: relative;
+    top: 7vh;
 }
 
 
@@ -189,7 +191,7 @@ a {
 }
 
 #name1:hover {
-    color: white;
+    color: #0082CA;
 }
 
 #name2 {
@@ -200,7 +202,7 @@ a {
 }
 
 #name2:hover {
-    color:white;
+    color:#5C0F8B;
 }
 
 #name3 {
@@ -211,7 +213,7 @@ a {
 }
 
 #name3:hover {
-    color:white;
+    color:#F5333F;
 }
 
 #name4 {
@@ -222,7 +224,7 @@ a {
 }
 
 #name4:hover {
-    color:white;
+    color:#ffe800;
 }
 
 #name5 {
@@ -233,7 +235,7 @@ a {
 }
 
 #name5:hover {
-    color:white;
+    color:#FF6B00;
 }
 
 #name6 {
@@ -245,7 +247,7 @@ a {
 }
 
 #name6:hover {
-    color:white;
+    color:#F3B2DB;
 }
 
 
