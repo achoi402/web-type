@@ -90,8 +90,39 @@ body {
     font-family: bely;
     font-weight: 400;
     font-style: italic;
-    font-size: 45px;
+    font-size: 40px;
 }
+
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 10vh;
+    overflow-x: hidden;
+   
+  }
+
+  .content {
+      color: #ff40b4;
+      font-size: 70px;
+      font-family: bely-display;
+      font-weight: 400;
+      font-style: normal;
+      background-color: black
+  }
+  
+  .track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  
 
 
 
@@ -398,13 +429,13 @@ a:link {
 }
 
 #date1:hover {
-    background-image:url(oldbody_final.png)
+    background-image:url(oldboy_hover_small.png)
     
 }
 
 #date2 {
     background-color:#00AE8D;
-    height: 68vh;
+    height: 60vh;
     padding-left: 2%;
 }
 
@@ -414,7 +445,7 @@ a:link {
 
 #date3 {
     background-color:#C19ADE;
-    height: 65vh;
+    height: 63vh;
     padding-left: 2%;
 }
 
@@ -425,7 +456,7 @@ a:link {
 
 #date4 {
     background-color:#00AE42;
-    height: 62vh;
+    height: 67vh;
     padding-left: 2%;
 }
 
@@ -435,7 +466,7 @@ a:link {
 
 #date5 {
     background-color:#0082CA;
-    height: 57vh;
+    height: 63vh;
     padding-left: 2%;
 }
 
@@ -445,7 +476,7 @@ a:link {
 
 #date6 {
     background-color:#F3B2DB;
-    height: 68vh;
+    height: 63vh;
     padding-left: 2%;
 }
 
@@ -533,7 +564,7 @@ a:link {
 
 .movie2 {
     background-color: #5C0F8B;
-    height:68vh;
+    height:60vh;
     overflow: auto;
 }
 
@@ -546,7 +577,7 @@ a:link {
 
 .movie3 {
     background-color: #F5333F;
-    height:65vh;
+    height:63vh;
     overflow:auto;
 }
 
@@ -559,7 +590,7 @@ a:link {
 
 .movie4 {
     background-color: #FFE800;
-    height:62vh;
+    height:67vh;
     overflow:auto;
 }
 
@@ -572,7 +603,7 @@ a:link {
 
 .movie5 {
     background-color: #FF6B00;
-    height:57vh;
+    height:63vh;
     overflow:auto;
 }
 
@@ -585,7 +616,7 @@ a:link {
  
 .movie6 {
     background-color: #00AE8D;
-    height:68vh;
+    height:63vh;
     overflow:auto;
 }
 
