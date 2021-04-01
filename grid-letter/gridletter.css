@@ -9,16 +9,29 @@ body{
 
 .letter{
     width: 300px;
-    background: lightgrey;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    top: -70vh;
+    z-index: 3;
+    right: -3vw;
+
+}
+
+.background {
+    display: block;
+    width: 500px;
+    height: 700px;
+    background-color: cornflowerblue;
+    position: relative;
+    top: 2vh;
 }
 
 .segment {
     width: 100px;
     height: 100px;
     margin: 0px;
-    background: black;
+    background: cornsilk;
 }
 
 .segment.blank {
@@ -29,10 +42,75 @@ body{
 }
 
 .round{
-    border-radius: 50%;
+    border-radius: 20px;
+    filter: blur(0.5em);
 }
 
 .round:hover{
-    background: white;
+    background:#DAE3D9;
+    filter: blur(0)
 }
+
+.o {
+    position: relative;
+    right: -35vw;
+    top: -130vh;
+}
+
+.background-o {
+    display: block;
+    width: 500px;
+    height: 700px;
+    background-color:lawngreen;
+    border-radius: 50px;
+    filter: blur(1em);
+    
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    background: rgb(111,255,43);
+    background: radial-gradient(circle, rgba(111,255,43,1) 30%, 
+    rgba(182,184,221,1) 60%);
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.shape:hover {
+    background: rgb(111,255,43);
+    background: radial-gradient(circle, rgba(111,255,43,1) 30%, 
+    rgba(182,184,221,1) 100%);
+}
+
+.p {
+   position: relative; 
+   top: -260vh;
+   right: -70vw;
+}
+
+.background-p {
+    display: block;
+    width: 500px;
+    height: 700px;
+    background-color:lavender;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    background: darkslateblue;
+    border-radius:5px 20px 5px;
+    z-index: 3;
+}
+
+.square:hover {
+    filter: blur(0.5em);
+    border-radius: 50%;
+}
+
+
+
 
