@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "cloudy";
+    src: url(balloon-inflate.ttf)
+}
+
+@font-face {
+    font-family: "cloudy-variable";
+    src: url(balloonGX.ttf);
+}
+
+* {
+   color: white;
+   text-align: center;
+}
+
+.letter {
+    font-family: cloudy;
+    font-size: 300px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    line-height: 0.25em;
+    position: relative;
+    top: 2vh;
+    line-height: 0.75em;
+    animation: blur 3s ease 0s ;
+    -webkit-animation: blur 3s ease 0s ;
+    -moz-animation: blur 3s ease 0s ;
+}
+
+@keyframes blur {
+    0%,
+    90% {
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -o-filter: blur(0px);
+      -ms-filter: blur(0px);
+    }
+    50% {
+      -webkit-filter: blur(0.25em);
+      -moz-filter: blur(0.25em);
+      -o-filter: blur(0.25em);
+      -ms-filter: blur(0.25em);
+    }
+  }
+
+
+
+
+#background {
+    height: 100vh;
+}
+
+
+/* .letter:hover {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0vh); }
+    50%  { transform: translate(0, 5vh); }
+    100%   { transform: translate(0, 0vh); }    
+} */
+
+
+
+
+#about {
+    display: flex;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+   right: -0.9vw;
+   top: -2.5vh;
+    font-size: 30px;
+}
+
+.aboutBox {
+    display: flex;
+    width: 6.25vw;
+    height: 5vh;
+    border: 2px solid white;
+    z-index: 3;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.aboutBox:hover {
+    background-color: white;
+    filter: blur(0.25em)
+}
+
+body {
+    background: rgb(141,198,232);
+    background: linear-gradient(180deg, rgba(141,198,232,1) 0%,
+     rgba(209,225,236,1) 25%,
+     rgba(255,177,185,1) 62%, rgba(43,85,151,1) 97%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 400vh;
+}
+
+#caption {
+    display: flex;
+    align-content: center;
+    position: relative;
+    top: 20vh;
+    right: -1.15vw;
+    text-align: left;
+}
+
+.more {
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 2em;
+    font-size: 30px;
+    width: 80vw;
+    position: relative;
+    right: 45vw;
+    top: 50vh;
+    text-align: center;
+
+}
+
+
+
+.o {
+    font-family: cloudy;
+    font-size: 700px;
+    position: relative;
+    top: -40vh;
+    right: -50vw;
+}
+
+.o-01 {
+    font-family: cloudy-variable;
+    font-variation-settings: "wght" 100;
+    font-size: 700px;
+    position: relative;
+    top: -40vh;
+}
+
+#quote {
+    height:100vh;
+    width: 80vw;
+    margin: auto;
+
+}
+
+.quote {
+    font-family: cloudy-variable;
+    font-variation-settings: "wght" 700;
+    font-size:100px;
+    position: relative;
+    text-align: center;
+    top: 50vh;
+    margin: auto;
+    line-height: 1em;
+    animation: blur 3s ease 0s ;
+    -webkit-animation: blur 3s ease 0s ;
+    -moz-animation: blur 3s ease 0s ;
+}
+
+
+@keyframes blur {
+    0%,
+    90% {
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -o-filter: blur(0px);
+      -ms-filter: blur(0px);
+    }
+    50% {
+      -webkit-filter: blur(0.25em);
+      -moz-filter: blur(0.25em);
+      -o-filter: blur(0.25em);
+      -ms-filter: blur(0.25em);
+    }
+  }
+
+
+#glyphset {
+    color: white;
+    z-index: 3;
+    height: auto;
+    width: 90vw;
+    margin: auto;
+}
+
+.abc {
+    font-family: cloudy,serif;
+    font-size: 200px;
+    position: relative;
+    top:20vh;
+    z-index: 1;
+
+}
+
