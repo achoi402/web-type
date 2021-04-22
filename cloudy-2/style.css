@@ -307,7 +307,7 @@ input.axis-range{
     text-align: center;
     font-size: 15vh;
     line-height: 0.75em;
-    width: 80vw;
+    width: 100vw;
     position: relative;
     right: 10vw;
     color:  #FFE5B3;
@@ -339,6 +339,10 @@ input.axis-range{
     margin: auto;
     postion: relative;
     top: -2vh;
+    border: 2px solid #FFF2C6;
+    width: 5%;
+    border-radius: 50%;
+    padding: 0.5%;
     
 }
 
@@ -352,6 +356,7 @@ input.axis-range{
     position: relative;
     top: 5vh;
     right: 20vw;
+   
 }
 
 
@@ -372,7 +377,12 @@ input.axis-range{
     background-color: #FFF2C6
     border: 2px solid #FFF2C6;
     position: relative;
-    top: -2vh;
+    right: -70vw;
+    top: -13vh;
+    border: 2px solid #FFF2C6;
+    width: max-content;
+    border-radius: 50%;
+    padding: 0.5%;
 
 }
 
