@@ -63,20 +63,7 @@ section{
 }
 
 
-.circle {
-    font-family: basic-sans, sans-serif;
-    font-size: 20px;
-    background-color: white;
-    border: 2px solid white;
-    border-radius: 100%;
-    margin: auto;
-    width: 2vw;
-    height: 2vw;
-    padding: 2%;
-    position: relative;
-    top: 30vh;
 
-}
 
 #intro{
 	font-size: 45vh;
@@ -347,13 +334,12 @@ input.axis-range{
 
 .puff {
     font-family: basic-sans, sans-serif;
-    background-color: #FFF2C6
-    border: 2px solid #FFF2C6;
-    border-radius: 100%;
+    font-size: 20px;
+    color: #FFF2C6
     margin: auto;
-    width: max-content;
-    height: 50px;
-
+    postion: relative;
+    top: -2vh;
+    
 }
 
 
@@ -385,9 +371,9 @@ input.axis-range{
     top: -3vh;
     background-color: #FFF2C6
     border: 2px solid #FFF2C6;
-    border-radius: 100%;
-    margin: auto;
-    width: 10%;
+    position: relative;
+    top: -2vh;
+
 }
 
 
