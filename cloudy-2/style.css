@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'cloudy';
+  src: url(cloudyGX.ttf) format('woff2-variations');
+}
+
+:root{
+	--wght: 300;
+	--wdth: 120;
+	--XHGT: 100;
+
+	--color: white;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+ /* cursor: url("planecursor.png"), pointer; */
+}
+
+body{
+	font-family: 'cloudy', sans-serif;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 1.5;
+	margin-bottom: 4rem;
+	color:  var(--color);
+    /* background: linear-gradient(180deg, rgba(141,198,232,1) 0%,
+     rgba(209,225,236,1) 25%,
+     rgba(255,177,185,1) 62%, rgba(43,85,151,1) 97%);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+ 
+    width: 400vw;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: visible;
+
+    cursor: url("aeroplane.png"), auto;
+}
+
+*{
+	font-variation-settings: 'wght' var(--wght),'wdth' var(--wdth), 'XHGT' var(--XHGT);
+
+
+}
+
+.container {
+    display: flex;
+    background: rgb(119,189,227);
+    background: linear-gradient(90deg, rgba(119,189,227,1) 0%, rgba(198,219,231,1) 15%,
+ rgba(255,159,170,1) 58%, rgba(10,68,134,1) 100%);
+}
+
+section{
+	/* margin: 3rem 0; */
+}
+
+.cloudy {
+    position: relative;
+    right: 12vw;
+}
+
+.dove2 {
+    margin: auto;
+    margin-left: 10px;
+    text-align: center;
+    
+    position: relative;
+    top: 10vh;
+}
+
+#intro{
+	font-size: 400px;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    right: 30vw;
+	line-height: 0.9;
+	text-align: center;
+    width: 100vw;
+
+  
+}
+
+#bigletter {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+#about {
+    position: relative;
+    top: 25vh;
+    color: white;
+
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0vh);
+    filter: blur(0) ;}
+    50%  { transform: translate(0, 5vh);
+        filter: blur(0.01em); }
+    100%   { transform: translate(0, -0vh);
+        filter: blur(0); }    
+}
+
+/* #ocloud {
+font-variation-settings: "wght" 700;
+font-size: 2000px;
+position: relative;
+top: -50vh;
+right: -20vw;
+filter: blur(0.01em);
+} */
+
+/* #content{
+	width: 33em;
+	height: 500px;
+	margin: auto;
+	--wght: 900;
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+} */
+
+#sample {
+    display: block;
+    margin: auto;
+    align-content: space-around;
+    align-content: center;
+    text-align: center;
+   font-size: 400px;
+   width: 150vw;
+    margin-left: 20vw;
+   
+}
+
+
+#poof {
+    position: relative;
+    top: -10vh;
+    right: 30vw;
+    font-size: 500px;
+    text-align: center;
+    
+    color: #FFFAF0;
+    word-spacing: -1em;
+}
+
+.animate{
+    animation: fontvariation 5s infinite;
+}
+
+@keyframes fontvariation {
+    0% {font-variation-settings: 'wght' 100;
+        transform: translate(0,  0vh);}
+    25% {font-variation-settings: 'wght' 400;
+        transform: translate(0, 5vh); }
+    50% {font-variation-settings: 'wght' 700;
+        transform: translate(0, 0vh); }
+    75% {font-variation-settings: 'wght' 400;
+        transform: translate(0, 5vh); }
+    100%{font-variation-settings: 'wght' 100;
+        transform: translate(0, 0vh); }
+}
+
+
+ .blurb {
+    font-family: basic-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -10vh;
+    color: #FFFAF0;
+ }
+ 
+ #blurb {
+     position: relative;
+     right: 30vw;
+ }
+
+
+
+#content {
+    /* font-variation-settings: "wght" 700; */
+    text-align: center;
+    font-size: 10vh;
+    line-height: 0.75em;
+    width: 80vw;
+    position: relative;
+    right: 20vw;
+    top: 10vh;
+    color: #FCECD4;
+    
+    animation: fontvariation 5s infinite;
+
+}
+
+/* #animate {
+    animation: variation 5s infinite;
+}
+
+@keyframes variation {
+    0% {font-variation-settings: 'wght' 100;}
+    25% {font-variation-settings: 'wght' 400;}
+    50% {font-variation-settings: 'wght' 700;}
+    75% {font-variation-settings: 'wght' 400; }
+    100%{font-variation-settings: 'wght' 100;}
+} */
+
+
+
+
+
+#full {
+    width: 90vw;
+    font-size: 18vh;
+    text-align: center;
+    color: #FFE5B3;
+    line-height: 1em;
+    position: relative;
+    top: 10vh;
+    right: 5vw;
+}
+
+
+
+
+/*BUTTON STYLES*/
+
+

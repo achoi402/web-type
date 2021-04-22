@@ -8,13 +8,22 @@
     src: url(balloonGX.ttf);
 }
 
+:root{
+	--wght: 100;
+	--wdth: 400;
+	--XHGT: 700;
+
+	--color:white;
+}
+
 * {
    color: white;
    text-align: center;
 }
 
-.letter {
-    font-family: cloudy;
+#bigletters {
+    font-family: cloudy-variable;
+    font-variation-settings: "wght" 100; 
     font-size: 300px;
     color: white;
     text-align: center;
@@ -26,10 +35,17 @@
     animation: blur 3s ease 0s ;
     -webkit-animation: blur 3s ease 0s ;
     -moz-animation: blur 3s ease 0s ;
+    
 }
 
 @keyframes blur {
-    0%,
+    0%,{
+        transform: translatey(0px);
+    }
+    50% {
+		
+		transform: translatey(-20px);
+	}
     90% {
       -webkit-filter: blur(0px);
       -moz-filter: blur(0px);
@@ -41,8 +57,12 @@
       -moz-filter: blur(0.25em);
       -o-filter: blur(0.25em);
       -ms-filter: blur(0.25em);
+
+      transform: translatey(0px);
     }
   }
+
+
 
 
 
@@ -193,7 +213,8 @@ body {
 }
 
 .abc {
-    font-family: cloudy,serif;
+    font-family: cloudy-variable,serif;
+    font-variation-settings: "wght" 700;
     font-size: 200px;
     position: relative;
     top:20vh;
