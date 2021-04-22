@@ -155,7 +155,7 @@ filter: blur(0.01em);
 #poof {
     position: relative;
     top: -10vh;
-    right: 30vw;
+    right: 28vw;
     font-size: 50vh;
     text-align: center;
     
@@ -235,13 +235,13 @@ button:hover{
 
 
 #flyhigh {
-    font-size: 15vh;
+    font-size: 14vh;
     color: #FFF3DA;
     width: 60vw;
     height: 100vh;
     line-height: 1em;
     position: relative;
-    right: 18vw;
+    right: 20vw;
     transition: font-variation-settings 400ms ease-in-out;
 }
 
@@ -305,7 +305,7 @@ input.axis-range{
 #content {
     /* font-variation-settings: "wght" 700; */
     text-align: center;
-    font-size: 18vh;
+    font-size: 16vh;
     line-height: 0.75em;
     width: 100vw;
     position: relative;
@@ -335,11 +335,12 @@ input.axis-range{
 .puff {
     font-family: basic-sans, sans-serif;
     font-size: 20px;
-    color: #FFF2C6
+    color: #FFF2C6;
     margin: auto;
-    postion: relative;
+    position: relative;
+    right: 35vw;
     top: -2vh;
-    border: 2px solid #FFF2C6;
+    border: 3px solid #FFF2C6;
     width: 5%;
     border-radius: 50%;
     padding: 0.5%;
@@ -349,7 +350,7 @@ input.axis-range{
 
 #full {
     width: 100vw;
-    font-size: 17vh;
+    font-size: 15vh;
     text-align: center;
     color: #FFF2C6;
     line-height: 1em;
@@ -375,7 +376,7 @@ input.axis-range{
     position: relative;
     top: -3vh;
     background-color: #FFF2C6
-    border: 2px solid #FFF2C6;
+    border: 3px solid #FFF2C6;
     position: relative;
     right: -70vw;
     top: -13vh;
