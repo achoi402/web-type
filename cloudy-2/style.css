@@ -10,7 +10,7 @@
 }
 
 :root{
-	--wght: 300;
+	--wght: 700;
 	--wdth: 120;
 	--XHGT: 100;
 
@@ -67,12 +67,13 @@ section{
 
 
 #intro{
-	font-size: 40vh;
+	font-size: 45vh;
     width: 100vw;
     height: 100vh;
     margin: auto;
     position: relative;
-    right: 10vw;
+    right: -5vw;
+    top: 5vh;
 	line-height: 0.9;
 	text-align: center;
     width: 100vw;
@@ -110,9 +111,9 @@ section{
     width: 50vw;
     height: 100vh;
     font-family: basic-sans;
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
-    right: 10vw;
+    right: 5vw;
     top: 50vh;
 }
 
@@ -199,7 +200,108 @@ filter: blur(0.01em);
      right: 30vw;
  }
 
+ /* .bttns {
+     display: block;
+ }
 
+ #buttons{
+	text-align: center;
+}
+button{
+    display:flex;
+	font-family: 'basic-sans', sans-serif;
+	color: white;
+    width: 10vw;
+    text-align: center;
+    height: auto;
+	font-size: 0.75em;
+    align-content: space-around;
+    background: transparent;
+	border-radius: 100px;
+	outline: none;
+	border: 2px solid white;
+	padding: 1em;
+    position: relative;
+    top: 50vh;
+}
+button:hover{
+
+	background: white;
+    filter: blur(0.25em);
+	cursor: pointer;
+    
+    
+} */
+
+
+
+#flyhigh {
+    font-size: 15vh;
+    color: #FFF3DA;
+    width: 60vw;
+    height: 100vh;
+    line-height: 1em;
+    position: relative;
+    right: 18vw;
+    transition: font-variation-settings 400ms ease-in-out;
+}
+
+ /* #sliders ul{
+	margin: auto;
+}
+#sliders li{
+	display: flex;
+	justify-content: center;
+    position: relative;
+    top: 50vh;
+    right: 50vw;
+
+}
+
+.range-name, .min, .max{
+	width: 100px;
+}
+.min{
+	text-align: right;
+}
+.range-name::after{
+	content: ': ';
+}
+
+input.axis-range{
+	width: 580px;
+	margin: 0 20px;
+} */
+
+/* .showcase {
+    display: block;
+} */
+
+/* #F {
+    font-variation-settings: 700;
+    font-size: 500px;
+}
+
+#L {
+    font-variation-settings: 400;
+    font-size: 200px;
+} */
+
+#fly1 {
+    font-variation-settings: "wght" 100;
+    animation: floating 3s infinite;
+}
+
+
+#fly2 {
+    font-variation-settings: "wght" 400;
+    animation: floating 4s infinite;
+}
+
+#fly3 {
+    font-variation-settings: "wght" 700;
+    animation: floating 5s infinite;
+}
 
 #content {
     /* font-variation-settings: "wght" 700; */
@@ -208,11 +310,10 @@ filter: blur(0.01em);
     line-height: 0.75em;
     width: 80vw;
     position: relative;
-    right: 20vw;
-    top: 10vh;
-    color: #FCECD4;
+    right: 10vw;
+    color:  #FFE5B3;
     
-    animation: fontvariation 5s infinite;
+    animation: floating 5s infinite;
 
 }
 
@@ -241,11 +342,11 @@ filter: blur(0.01em);
     width: 90vw;
     font-size: 18vh;
     text-align: center;
-    color: #FFE5B3;
+    color: #FFF2C6;
     line-height: 1em;
     position: relative;
     top: 0vh;
-    right: 5vw;
+    right: 20vw;
 }
 
 
