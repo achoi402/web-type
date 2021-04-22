@@ -42,7 +42,7 @@ body{
     overflow-y: hidden;
     overflow-x: visible;
 
-    cursor: url("aeroplane.png"), auto;
+    cursor: url("dove.png"), auto;
 }
 
 *{
@@ -67,13 +67,12 @@ section{
 
 
 #intro{
-	font-size: 400px;
+	font-size: 40vh;
     width: 100vw;
     height: 100vh;
     margin: auto;
     position: relative;
-    top: 10vh;
-    right: 35vw;
+    right: 10vw;
 	line-height: 0.9;
 	text-align: center;
     width: 100vw;
@@ -105,6 +104,19 @@ section{
     100%   { transform: translate(0, -0vh);
         filter: blur(0); }    
 }
+
+
+#more {
+    width: 50vw;
+    height: 100vh;
+    font-family: basic-sans;
+    font-size: 30px;
+    position: relative;
+    right: 10vw;
+    top: 50vh;
+}
+
+
 
 /* #ocloud {
 font-variation-settings: "wght" 700;
@@ -204,6 +216,7 @@ filter: blur(0.01em);
 
 }
 
+
 /* #animate {
     animation: variation 5s infinite;
 }
@@ -235,10 +248,15 @@ filter: blur(0.01em);
     right: 5vw;
 }
 
+
+
 .letters {
     position: relative;
     top: -5vh;
 }
+
+
+
 
 .deflate {
     font-family: basic-sans, sans-serif;
