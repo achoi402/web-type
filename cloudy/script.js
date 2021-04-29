@@ -17,6 +17,6 @@ $('#intro').mousemove(function(event) {
         "--wght": settingY
     });
     
-});
+}); 
 });
 
