@@ -12,6 +12,18 @@
     Love Letters from Every Asian Fetishizer
   </h1>
   
+  <div class="Questions">
+
+    <form>
+      Write an East Asian ethnicity. <br>
+      <input type="text" id="identity" name="identity" placeholder="ex. Korean" required><br><br>
+      Your favorite East Asian celebrity or anime character. <br>
+      <input type="text" id="character" name="character" placeholder="ex. Jennie from Blackpink, Hinata Hyuga from Naruto"  required><br><br>
+      Favorite East Asian food. <br>
+      <input type="text" id="food" name="food" placeholder="ex. sushi" required><br><br>
+    </form>	
+  </div>
+
   <p id="element2">(an empty text element)</p>
   
 <section id="buttoncontainer">
@@ -30,8 +42,8 @@
 <script type="text/javascript">
   
   
-  var greeting = ["Ni hao", "Ahnyeong", "Konichiwa", "こんにちは。", "안녕!","你好!"];
-  var asian = ["Asian?", " Chinese?", " Korean?", " Japanese?"];
+  var greeting = ["Ni hao", "Ahnyeong", "Konichiwa"];
+  var asian = [" Asian?", " Chinese?", " Korean?", " Japanese?"];
   var comp = [
        "cute",
        "hot",
@@ -105,7 +117,7 @@
   "kiss you",
       "take you out",
       "go on a date",
-      "have babies with you",,
+      "fuck you",
       "do things with you",
       "watch anime with you",
       "watch K-dramas with you",
@@ -169,9 +181,6 @@
        "anime girlfriend",
         "China doll",
         "token Asian girl",
-        "yeojachingu",
-    "kanojo",
-    "nu pengyou",
 
    ];
 
@@ -180,24 +189,18 @@
     "complimentary",
     "kawaii",
     "endearing",
-    "cute",
-    "nice",
-    "sweet",
-
    ];
 
    var thanks = [
        "Arigatou!",
        "Gamsahapnida!",
        "Xie xie!",
-       "Arigatou gozaimasu!",
-        "Gamsa!",
    ];
 
 
  
  function loveLetter(){
-  document.getElementById("element2").innerHTML = greeting[Math.floor(Math.random()*greeting.length)]+ " What are you? " + 
+  document.getElementById("element2").innerHTML = greeting[Math.floor(Math.random()*greeting.length)]+ " What are you?" + 
   asian[Math.floor(Math.random()*asian.length)] + " That's so " + comp[Math.floor(Math.random()*comp.length)] + "!"
   + " You remind me of " + celebs[Math.floor(Math.random()*celebs.length)] + "! " + "I'd really like to " + 
   act[Math.floor(Math.random()*act.length)] + ". " + "We can get " +  food[Math.floor(Math.random()*food.length)] + ". " +

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: compagnon-bold;
+    src: url(compagnonbold.woff)
+}
+
+@font-face {
+    font-family: compagnon-med;
+    src: url(Compagnon-Medium.woff);
+}
+
+@font-face {
+    font-family: compagnon-reg;
+    src: url(Compagnon-Roman.woff2);
+}
+
+@font-face {
+    font-family: compagnon-it;
+    src: url(Compagnon-Italic.woff2)
+}
+
+body {
+   
+    width: 40vw;
+    margin: auto;
+    line-height: 1.5em;
+    
+    font-family: compagnon-reg;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: compagnon-bold;
+    font-size: 50px;
+    line-height: 1.5em;
+}
+
+.questions {
+    font-family: compagnon-med;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.letter-box {
+    width: 40vw;
+    height: 35vh;
+    border: 2px solid black;
+}
+
+#letter {
+    padding-left: 2%;
+}
+
+#greeting {
+    font-family: compagnon-bold;
+}
+#indentity-input {
+    font-family: compagnon-med !important;
+}
+
+#adject {
+    font-family: compagnon-bold;
+}
+
+#thanks-input {
+    font-family: compagnon-bold;
+}
+
+#action {
+    font-family: compagnon-bold;
+}
+
+#perk {
+    font-family: compagnon-bold;
+}
+
+#cute-input {
+    font-family: compagnon-bold;
+}
+
+#button {
+    font-family: compagnon-reg;
+    background-color: white;
+}
+
+#button:hover {
+    font-family: compagnon-it;
+    background-color: yellow;
+}
+
+input {
+    font-family: compagnon-it;
+    font-size: 20px;
+    background-color: white;
+    height: 3vh;
+    width: 20vw;
+}
+
+#flower {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    right: 90vw;
+
+}
+

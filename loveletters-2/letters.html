@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+        <head>
+            <meta http-equiv="x-ua-compatible" content="ie=edge">
+            <meta charset="utf-8"> 
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Love Letters</title>
+               <link rel="stylesheet" type="text/css" href="letters.css">
+            
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <script src="letters.js"></script>
+            
+        </head>
+<body>
+ <a href="colophon.html"><img src="flower.png" id="flower"></a> 
+  <h1>
+    Love Letters from Every Asian Fetishizer
+  </h1>
+
+  
+
+  <div class="questions">
+
+    <form>
+      Write an East Asian ethnicity. <br>
+      <input type="text" id="identity" name="identity" placeholder="ex. Korean" required><br><br>
+      Your favorite East Asian celebrity or anime character. <br>
+      <input type="text" id="character" name="character" placeholder="ex. Jennie from Blackpink, Hinata Hyuga from Naruto"  required><br><br>
+      Favorite East Asian food. <br>
+      <input type="text" id="food" name="food" placeholder="ex. sushi" required><br><br>
+    </form>	
+  </div>
+
+  
+<div class="letter-box">
+<section id="letter">
+
+<span id="greeting">(empty text element)</span>
+<div>What are you? <span id="identity-input" style="font-family: compagnon-med;">____</span>?</div>
+<div>That's so <span id="adject">(empty text element)</span>!</div>
+<div>You remind me of <span id="character-input" style="font-family: compagnon-med;">____</span>!</div>
+<div>I'd really like to <span id="action">(empty text element)</span>.</div>
+<div>We can get <span id="food-input" style="font-family: compagnon-med;">____</span>.</div>
+<div>I also <span id="perk">(empty text element)</span> and want to make you my <span id="gf">(empty text element)</span>!</div>
+<div>I hope you found this <span id="cute-input">(empty text element)</span>.</div>
+<span id="thanks-input">(empty text element)</span>
+
+</section>
+</div>
+
+<section id="buttoncontainer">
+  <button id="button">
+    new letter
+  </button>
+</section>
+
+<script type="text/javascript">
+
+var greeting = ["Ahnyeong!", "Ni hao!", "Konichiwa!", "こんにちは。", "안녕!","你好!"];
+
+var adj = [
+"fascinating", 
+"exotic", 
+"kawaii", 
+"adorable", 
+"hot", 
+"sexy",
+"cool",
+"gwiyomi",
+"amazing",
+"ke'ai",
+"unique",
+"sweet",
+"nice"]
+
+var action = [
+  "kiss you",
+  "take you out",
+  "marry you",
+  "have babies with you",
+  "date you",
+  "hang with you",
+  "anime and chill",
+  "k-drama and chill",
+  "talk about BTS with you",
+  "talk about anime with you",
+]
+
+var perk = [
+"know karate",
+"know taekwondo",
+"would make cute babies with you",
+"can give you a green card",
+"can speak conversational Japanese",
+"can speak conversational Korean",
+"can speak conversational Chinese",
+]
+
+var gf = [
+  "girlfriend",
+  "waifu",
+  "yeojachingu",
+  "kanojo",
+  "nu pengyou",
+  "personal k-pop idol",
+  "anime girlfriend",
+  "wife",
+  "token Asian girl"
+]
+
+var cute = 
+[
+"flattering",
+"complimentary",
+"kawaii",
+"endearing",
+"cute",
+"nice",
+"sweet",
+]
+
+var thanks = [
+  "Thanks!",
+  "Thank you!",
+  "Arigatou!",
+  "Arigatou gozaimasu!",
+  "Xie xie!",
+  "Gamsa!",
+  "Gamsahapnida!"
+]
+function loveLetter (){
+
+let input1 =  document.getElementById("identity");
+
+input1.addEventListener('input', function (evt) {
+   console.log(this.value);
+   document.getElementById("identity-input").innerHTML = this.value;
+});
+
+let input2 = document.getElementById("character");
+
+input2.addEventListener('input', function (evt) {
+  console.log(this.value);
+  document. getElementById("character-input").innerHTML = this.value;
+});
+
+let input3 = document.getElementById("food");
+
+input3.addEventListener('input', function (evt) {
+  console.log(this.value);
+  document. getElementById("food-input").innerHTML = this.value;
+});
+
+
+function hi(){
+  let hello = greeting[Math.floor(Math.random()*greeting.length)];
+  // console.log(hello);
+  document.getElementById("greeting").innerHTML = hello;
+}
+
+function adjective(){
+  let desc =  adj[Math.floor(Math.random()*adj.length)];
+  document.getElementById("adject").innerHTML = desc;
+}
+
+function act(){
+  let act =  action[Math.floor(Math.random()*action.length)];
+  document.getElementById("action").innerHTML = act;
+}
+
+function benefit(){
+  let benefit =  perk[Math.floor(Math.random()*perk.length)];
+  document.getElementById("perk").innerHTML = benefit;
+}
+
+function wife(){
+  let wife =  gf[Math.floor(Math.random()*gf.length)];
+  document.getElementById("gf").innerHTML = wife;
+}
+
+function nice (){
+  let nice =  cute[Math.floor(Math.random()*cute.length)];
+  document.getElementById("cute-input").innerHTML = nice;
+}
+
+function thx () {
+  let thx = thanks[Math.floor(Math.random()*thanks.length)];
+  document.getElementById("thanks-input").innerHTML = thx;
+}
+
+hi();
+
+adjective();
+
+act();
+
+benefit();
+
+wife();
+
+nice();
+
+thx();
+}
+
+loveLetter ();
+document.getElementById("button").onclick = loveLetter;
+
+</script>
+
+ 
+</body>
+
+
+</html>
+
+
+  
