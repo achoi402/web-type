@@ -15,23 +15,33 @@
 <body>
  <a href="colophon.html" id="about">ABOUT</a> 
 <div class="title">
+  <p class="kaomojis">
+    (((*⌒―⌒*)'･:*☆:.。 ♡ 。.:☆*:･'(*⌒―⌒*)))
+  </p>
  <h1>
   Love Letters from Every Asian Fetishizer
 </h1>
 
 <p class="blurb">
-  Get your very own customized letter from a generic fetishizer!
-  It's supposed to be a compliment.
+  Make your very own customized letter to send to your Asian female crush!
+  <br>Dont worry, it's supposed to be a compliment! <br>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 </p>
+<br>
+
+<p class="kaomojis">
+  (((*⌒―⌒*)'･:*☆:.。 ♡ 。.:☆*:･'(*⌒―⌒*)))
+</p>
+
 </div>
 
-<br>
+
 
 <div class="container">
 
   
 
   <div class="questions">
+
 
     <form>
 
@@ -47,15 +57,15 @@
         </select>
     </div>
       <div class= "hint">
-        tip: it's okay to be generic! at least you're trying!
+        Tip: It's okay to be generic! <br> At least you're trying!
       </div>
     </div>
 
     <div class="question2">
       Your favorite K-Pop idol or anime character. <br>
-      <input type="text" id="character" name="character" required style= "font-size: 30px;"><br><br>
+      <input type="text" id="character" name="character" required style= "font-size: 2vw;"><br><br>
       <div class= "hint">
-        tip: honestly, great choice! anything will be a compliment! we love being compared to 
+        Tip: Honestly, great choice! anything will be a compliment! We love being compared to 
         anime school girls and kpop idols we look nothing like!
       </div>
     </div>
@@ -63,7 +73,7 @@
   <div class="question3">
       <div class="field">
         <label for="options">Pick your Favorite Asian food:</label>
-        <select id="food-select" name="options" style="background-color: white; font-family: compagnon-it; font-size:30px">
+        <select id="food-select" name="options" style="background-color: white; font-family: compagnon-it; font-size:2vw">
           <option value="sushi" >sushi</option>
           <option value="K-BBQ">K-BBQ</option>
           <option value="dimsum" selected>dimsum</option>
@@ -81,14 +91,14 @@
     <br>
     </form>	
     <div class= "hint">
-      tip: wow! of course, we'd be grateful to be treated to any of these! 
+      Tip: Wow! Of course, we'd be grateful to be treated to any of these! 
     </div>
   </div>
 
-  <div class="question4">
+  <div class="question4" style="height: 60vh;">
     <div class="field">
       <label for="options">Pick a date:</label>
-      <select id="dating" name="options" style="background-color: white; font-family: compagnon-it; font-size:30px">
+      <select id="dating" name="options" style="background-color: white; font-family: compagnon-it; font-size:2vw">
         <option value="talk about BTS">talk about BTS</option>
         <option value="anime and chill">anime and chill</option>
         <option value="reenact Sophie and Howl's relationship" selected>reenact Sophie and Howl's relationship</option>
@@ -100,20 +110,38 @@
         <option value="be a K-drama">be a K-drama</option>
 
       </select>
+      <div class= "hint">
+        Tip: None of these are inappropriate at all. 	(´ ∀ ` *)
+      </div>
+  </div>
+</div>
 
-     
-    
+
+  <div class="question5">
+    <div class="field">
+      <label for="options">Select a "kaomoji":</label>
+      <select id="kaomoji" name="options" style="background-color: white; font-family: compagnon-med; font-size:2vw;">
+        <option value="(づ￣ ³￣)づ">
+          (づ￣ ³￣)づ</option>
+        <option value="⊂(･ω･*⊂)">⊂(･ω･*⊂)</option>
+        <option value="	(｡•̀ᴗ-)✧" selected>	(｡•̀ᴗ-)✧</option>
+        <option value="	(^=◕ᴥ◕=^)" selected>	(^=◕ᴥ◕=^)</option>
+        <option value="	V●ᴥ●V" selected>	V●ᴥ●V</option>
+        <option value="	(´｡• ω •｡`) ♡" selected>	(´｡• ω •｡`) ♡</option>
+        <option value="	(◕‿◕)♡">	(◕‿◕)♡</option>
+        <option value="	(´ ε ` )♡">	(´ ε ` )♡</option>
+
+
+      </select>
+
   </div>
   <br>
     
     <!-- Write your answer. <br>
     <input type="text" id="date" name="food" required><br><br> -->
   </form>	
-  <div class= "hint">
-    tip: none of these are inappropriate at all.  :)
-  </div>
+ 
 
-  <button type="submit" id="submit">View Letter</button> 
 </div>
   
   
@@ -122,7 +150,8 @@
     <div class="letter-box">
     <section id="letter"> 
     
-    <span id="greeting">____</span>
+    <div><span id="greeting">____</span></div>
+    <br>
     <div>What are you? <span id="identity-input" >____</span>?</div>
     <div>That's so <span id="adject">(empty text element)</span>!</div>
     <div>You remind me of <span id="character-input" >____</span>!</div>
@@ -131,6 +160,12 @@
     <div>I also <span id="perk">(empty text element)</span> and want to make you my <span id="gf">(empty text element)</span>!</div>
     <div>I hope you found this <span id="cute-input">(empty text element)</span>.</div>
     <span id="thanks-input">(empty text element)</span>
+    <div><span id="kaomoji-input">____</span></div>
+    <br>
+    <div>
+      Love, <br>
+      Your Fetishizer
+    </div>
     
     </section>
     </div>
@@ -139,7 +174,7 @@
     
     <section id="buttoncontainer">
       <button id="button">
-        new letter
+        Hmm...
       </button>
     </section>
     </div>
@@ -252,6 +287,13 @@ let input4 = document.getElementById("dating");
 input4.addEventListener('input', function (evt) {
   console.log(this.value);
   document. getElementById("date-input").innerHTML = this.value;
+});
+
+let input5 = document.getElementById("kaomoji");
+
+input5.addEventListener('input', function (evt) {
+  console.log(this.value);
+  document. getElementById("kaomoji-input").innerHTML = this.value;
 });
 
 
