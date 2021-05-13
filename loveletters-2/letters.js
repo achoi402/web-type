@@ -7,13 +7,9 @@ $(document).ready(function(){
 	$('form').submit(function(e){
 	    console.log('submit');
 
-	    let identity = $('#identity').val();
-	    $('#identity-input').text(indentity);
+	    let letters = $('form').val();
 
-	   	let chocolate = $('#character').val();
-	    $('#character-input').text(character);
-
-	    $('form').hide(); //hide form upon submission
+	    $('#letter').hide(); //hide form upon submission
 
 	    $('#letter').show(); //show output upon submission
 

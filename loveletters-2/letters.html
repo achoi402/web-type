@@ -34,29 +34,28 @@
   <div class="questions">
 
     <form>
+
+
 <div class= "question1">
       <div class="field">
         <label for="options">Choose an East Asian Identity:</label>
         <select id="options" name="options">
-          <option value="chinese">Chinese</option>
-          <option value="japanese">Japanese</option>
-          <option value="korean" selected>Korean</option>
-          <option value="asian">Asian</option>
+          <option value="Chinese">Chinese</option>
+          <option value="Japanese">Japanese</option>
+          <option value="Korean" selected>Korean</option>
+          <option value="Asian">Asian</option>
         </select>
     </div>
- 
-      Write your answer . <br>
-      <input type="text" id="identity" name="identity" required><br><br>
       <div class= "hint">
         tip: it's okay to be generic! at least you're trying!
       </div>
     </div>
 
     <div class="question2">
-      Your favorite East Asian celebrity or anime character. <br>
-      <input type="text" id="character" name="character"   required><br><br>
+      Your favorite K-Pop idol or anime character. <br>
+      <input type="text" id="character" name="character" required style= "font-size: 30px;"><br><br>
       <div class= "hint">
-        tip: anything will be a compliment! we love being compared to 
+        tip: honestly, great choice! anything will be a compliment! we love being compared to 
         anime school girls and kpop idols we look nothing like!
       </div>
     </div>
@@ -64,8 +63,8 @@
   <div class="question3">
       <div class="field">
         <label for="options">Pick your Favorite Asian food:</label>
-        <select id="food-select" name="options">
-          <option value="sushi">sushi</option>
+        <select id="food-select" name="options" style="background-color: white; font-family: compagnon-it; font-size:30px">
+          <option value="sushi" >sushi</option>
           <option value="K-BBQ">K-BBQ</option>
           <option value="dimsum" selected>dimsum</option>
           <option value="boba">boba</option>
@@ -86,18 +85,24 @@
     </div>
   </div>
 
-  <div class="question3">
+  <div class="question4">
     <div class="field">
       <label for="options">Pick a date:</label>
-      <select id="dating" name="options">
+      <select id="dating" name="options" style="background-color: white; font-family: compagnon-it; font-size:30px">
         <option value="talk about BTS">talk about BTS</option>
         <option value="anime and chill">anime and chill</option>
         <option value="reenact Sophie and Howl's relationship" selected>reenact Sophie and Howl's relationship</option>
+        <option value="do that one scene from Tokyo Ghoul" selected>do that one scene from Tokyo Ghoul</option>
+        <option value="talk about the big three shonen animes" selected>talk about the big three shonen animes</option>
+        <option value="talk about where you're from" selected>talk about where you're from</option>
         <option value="Netflix and chill">Netflix and chill</option>
         <option value="watch K-dramas">watch K-dramas</option>
         <option value="be a K-drama">be a K-drama</option>
 
       </select>
+
+     
+    
   </div>
   <br>
     
@@ -107,6 +112,8 @@
   <div class= "hint">
     tip: none of these are inappropriate at all.  :)
   </div>
+
+  <button type="submit" id="submit">View Letter</button> 
 </div>
   
   
@@ -115,7 +122,7 @@
     <div class="letter-box">
     <section id="letter"> 
     
-    <span id="greeting">(empty text element)</span>
+    <span id="greeting">____</span>
     <div>What are you? <span id="identity-input" >____</span>?</div>
     <div>That's so <span id="adject">(empty text element)</span>!</div>
     <div>You remind me of <span id="character-input" >____</span>!</div>
@@ -217,7 +224,9 @@ var thanks = [
 ]
 function loveLetter (){
 
-let input1 =  document.getElementById("identity");
+  
+
+let input1 =  document.getElementById("options");
 
 input1.addEventListener('input', function (evt) {
    console.log(this.value);

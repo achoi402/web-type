@@ -28,6 +28,18 @@ body {
     height: auto;
 }
 
+#about {
+    font-size: 30px;
+}
+
+#back {
+    font-size: 30px;
+}
+
+a:hover {
+    font-family: compagnon-it;
+}
+
 .container {
     width: 40vw;
     height: auto;
@@ -35,7 +47,7 @@ body {
 
 .title {
     margin:auto;
-    margin-left: 40%;
+    margin-left: 50%;
     margin-right: 60%;
     margin-top: 20%;
     text-align: center;
@@ -48,6 +60,7 @@ body {
     font-size: 40px;
     line-height: 1.5em;
 }
+
 
 h1 {
     font-family: compagnon-bold;
@@ -74,17 +87,41 @@ h1 {
     width: 40vw;
     line-height: 1.5em;
 }
+
+#options {
+
+    background-color: white;
+    font-family: compagnon-it;
+    font-size: 30px;
+}
+
+
+.thegreeting {
+    height: 60vh;
+}
+
 .question1 {
-    height: 100vh;
+    height: 60vh;
 }
 
 .question2 {
-    height: 100vh;
+    height: 60vh;
 }
 
 .question3 {
-    height: 100vh;
+    height: 60vh;
 }
+
+.question4 {
+    height: 80vh;
+}
+
+option {
+    background-color: white;
+    font-family: compagnon-reg;
+    font-size: 30px;
+}
+
 
 .letter-container {
     font-family: compagnon-reg;
@@ -166,12 +203,15 @@ input {
 
 #about:visited {
     color: black;
-    text-decoration: none ;
+    text-decoration: none;
 
+}
+#back:visited {
+    color: black;
+    text-decoration: none;
 }
 
 .about1 {
     margin: auto;
-    padding: 30%;
     width: 40vw;
 }
