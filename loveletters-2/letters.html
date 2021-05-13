@@ -13,47 +13,131 @@
             
         </head>
 <body>
- <a href="colophon.html"><img src="flower.png" id="flower"></a> 
-  <h1>
-    Love Letters from Every Asian Fetishizer
-  </h1>
+ <a href="colophon.html" id="about">ABOUT</a> 
+<div class="title">
+ <h1>
+  Love Letters from Every Asian Fetishizer
+</h1>
+
+<p class="blurb">
+  Get your very own customized letter from a generic fetishizer!
+  It's supposed to be a compliment.
+</p>
+</div>
+
+<br>
+
+<div class="container">
 
   
 
   <div class="questions">
 
     <form>
-      Write an East Asian ethnicity. <br>
-      <input type="text" id="identity" name="identity" placeholder="ex. Korean" required><br><br>
+<div class= "question1">
+      <div class="field">
+        <label for="options">Choose an East Asian Identity:</label>
+        <select id="options" name="options">
+          <option value="chinese">Chinese</option>
+          <option value="japanese">Japanese</option>
+          <option value="korean" selected>Korean</option>
+          <option value="asian">Asian</option>
+        </select>
+    </div>
+ 
+      Write your answer . <br>
+      <input type="text" id="identity" name="identity" required><br><br>
+      <div class= "hint">
+        tip: it's okay to be generic! at least you're trying!
+      </div>
+    </div>
+
+    <div class="question2">
       Your favorite East Asian celebrity or anime character. <br>
-      <input type="text" id="character" name="character" placeholder="ex. Jennie from Blackpink, Hinata Hyuga from Naruto"  required><br><br>
-      Favorite East Asian food. <br>
-      <input type="text" id="food" name="food" placeholder="ex. sushi" required><br><br>
+      <input type="text" id="character" name="character"   required><br><br>
+      <div class= "hint">
+        tip: anything will be a compliment! we love being compared to 
+        anime school girls and kpop idols we look nothing like!
+      </div>
+    </div>
+
+  <div class="question3">
+      <div class="field">
+        <label for="options">Pick your Favorite Asian food:</label>
+        <select id="food-select" name="options">
+          <option value="sushi">sushi</option>
+          <option value="K-BBQ">K-BBQ</option>
+          <option value="dimsum" selected>dimsum</option>
+          <option value="boba">boba</option>
+          <option value="Korean food">Korean food</option>
+          <option value="Chinese food">Chinese food</option>
+          <option value="Japanese food">Japanese food</option>
+          <option value="matcha">matcha</option>
+          <option value="tempura">tempura</option>
+          <option value="orange chicken">orange chicken</option>
+          <option value="chow mein">chow mein</option>
+          <option value="fried rice">fried rice</option>
+        </select>
+    </div>
+    <br>
     </form>	
+    <div class= "hint">
+      tip: wow! of course, we'd be grateful to be treated to any of these! 
+    </div>
   </div>
 
-  
-<div class="letter-box">
-<section id="letter">
+  <div class="question3">
+    <div class="field">
+      <label for="options">Pick a date:</label>
+      <select id="dating" name="options">
+        <option value="talk about BTS">talk about BTS</option>
+        <option value="anime and chill">anime and chill</option>
+        <option value="reenact Sophie and Howl's relationship" selected>reenact Sophie and Howl's relationship</option>
+        <option value="Netflix and chill">Netflix and chill</option>
+        <option value="watch K-dramas">watch K-dramas</option>
+        <option value="be a K-drama">be a K-drama</option>
 
-<span id="greeting">(empty text element)</span>
-<div>What are you? <span id="identity-input" style="font-family: compagnon-med;">____</span>?</div>
-<div>That's so <span id="adject">(empty text element)</span>!</div>
-<div>You remind me of <span id="character-input" style="font-family: compagnon-med;">____</span>!</div>
-<div>I'd really like to <span id="action">(empty text element)</span>.</div>
-<div>We can get <span id="food-input" style="font-family: compagnon-med;">____</span>.</div>
-<div>I also <span id="perk">(empty text element)</span> and want to make you my <span id="gf">(empty text element)</span>!</div>
-<div>I hope you found this <span id="cute-input">(empty text element)</span>.</div>
-<span id="thanks-input">(empty text element)</span>
-
-</section>
+      </select>
+  </div>
+  <br>
+    
+    <!-- Write your answer. <br>
+    <input type="text" id="date" name="food" required><br><br> -->
+  </form>	
+  <div class= "hint">
+    tip: none of these are inappropriate at all.  :)
+  </div>
 </div>
+  
+  
 
-<section id="buttoncontainer">
-  <button id="button">
-    new letter
-  </button>
-</section>
+  <div class="letter-container">
+    <div class="letter-box">
+    <section id="letter"> 
+    
+    <span id="greeting">(empty text element)</span>
+    <div>What are you? <span id="identity-input" >____</span>?</div>
+    <div>That's so <span id="adject">(empty text element)</span>!</div>
+    <div>You remind me of <span id="character-input" >____</span>!</div>
+    <div>I'd really like to <span id="action">(empty text element)</span>.</div>
+    <div>We can get <span id="food-input">____</span> and then we can <span id="date-input">____</span></div>
+    <div>I also <span id="perk">(empty text element)</span> and want to make you my <span id="gf">(empty text element)</span>!</div>
+    <div>I hope you found this <span id="cute-input">(empty text element)</span>.</div>
+    <span id="thanks-input">(empty text element)</span>
+    
+    </section>
+    </div>
+
+    <br>
+    
+    <section id="buttoncontainer">
+      <button id="button">
+        new letter
+      </button>
+    </section>
+    </div>
+    </div>
+  </div> 
 
 <script type="text/javascript">
 
@@ -109,6 +193,8 @@ var gf = [
   "token Asian girl"
 ]
 
+
+
 var cute = 
 [
 "flattering",
@@ -145,11 +231,18 @@ input2.addEventListener('input', function (evt) {
   document. getElementById("character-input").innerHTML = this.value;
 });
 
-let input3 = document.getElementById("food");
+let input3 = document.getElementById("food-select");
 
 input3.addEventListener('input', function (evt) {
   console.log(this.value);
   document. getElementById("food-input").innerHTML = this.value;
+});
+
+let input4 = document.getElementById("dating");
+
+input4.addEventListener('input', function (evt) {
+  console.log(this.value);
+  document. getElementById("date-input").innerHTML = this.value;
 });
 
 

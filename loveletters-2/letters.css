@@ -21,36 +21,94 @@
 body {
    
     width: 40vw;
-    margin: auto;
     line-height: 1.5em;
     
     font-family: compagnon-reg;
     font-size: 20px;
+    height: auto;
+}
+
+.container {
+    width: 40vw;
+    height: auto;
+}
+
+.title {
+    margin:auto;
+    margin-left: 40%;
+    margin-right: 60%;
+    margin-top: 20%;
+    text-align: center;
+    width: 60vw;
+    height: 90vh;
+}
+
+.blurb {
+    width: 60vw;
+    font-size: 40px;
+    line-height: 1.5em;
 }
 
 h1 {
     font-family: compagnon-bold;
-    font-size: 50px;
+    font-size: 70px;
     line-height: 1.5em;
 }
 
 .questions {
     font-family: compagnon-med;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.5em;
+    height: 100vh;
+    width: 60vw;
+    margin-bottom: 50%;
+
+    margin-left: 40%;
+    margin-right: 60%;
 }
 
-.letter-box {
+.hint {
+    font-family: compagnon-it;
+    font-size: 20px;
+    color: red;
     width: 40vw;
-    height: 35vh;
+    line-height: 1.5em;
+}
+.question1 {
+    height: 100vh;
+}
+
+.question2 {
+    height: 100vh;
+}
+
+.question3 {
+    height: 100vh;
+}
+
+.letter-container {
+    font-family: compagnon-reg;
+    font-size: 30px;
+    line-height: 1.5em;
+
+    height:100vh;
+    width: 50vw;
+    
+
+    margin:auto;
+}
+.letter-box {
+
     border: 2px solid black;
+    width: 60vw;
+    height: 60vh;
 }
 
 #letter {
     padding-left: 2%;
 }
 
-#greeting {
+/* #greeting {
     font-family: compagnon-bold;
 }
 #indentity-input {
@@ -75,11 +133,14 @@ h1 {
 
 #cute-input {
     font-family: compagnon-bold;
-}
+} */
 
 #button {
     font-family: compagnon-reg;
+    font-size: 20px;
     background-color: white;
+    width:10vw;
+    height: 10vh;
 }
 
 #button:hover {
@@ -103,3 +164,14 @@ input {
 
 }
 
+#about:visited {
+    color: black;
+    text-decoration: none ;
+
+}
+
+.about1 {
+    margin: auto;
+    padding: 30%;
+    width: 40vw;
+}
