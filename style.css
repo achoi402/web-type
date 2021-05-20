@@ -61,7 +61,7 @@ body {
 
 }
 
-.all {
+/* .all {
 	display: flex;
 	align-items: space-around;
 	justify-content: space-between;
@@ -69,29 +69,36 @@ body {
 	width: 80vw;
 	margin:auto;
 	margin-top: 10vh;
-}
+} */
 
 
 .desc {
 
-	
 	font-family: victorianna-thin;
 	font-style: normal;
 	font-size: 2vw;
 	color: tomato;
 }
 
-h3 {
-	font-size: 2vw;
-	width: 15vw;
-	height: auto;
+#all {
+	display: flex;
+	justify-content: space-evenly;
+}
 
+h3 {
+	display: block;
+	justify-content: center;
+	font-family: victorianna-thin;
+	font-size: 2.5vw;
+	width: 17vw;
+	height: 6vh;
 	text-align: center;
 
 	background-color: tomato;
 	color:  lemonchiffon;
 
 	border-radius: 50px;
+	border:none;
 }
 
 
