@@ -1,4 +1,5 @@
 body{
+   
 }
 
 
@@ -7,6 +8,7 @@ body{
     border-radius: 50%;
     border-radius: 20px;
     filter: blur(0.5em);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .round:hover{
@@ -23,7 +25,6 @@ body{
 
 .background-o {
     display: block;
-    grid-template-columns: repeat(4, 1fr);
     width: 500px;
     height: 700px;
     background-color:lawngreen;
@@ -36,6 +37,7 @@ body{
     width: 100px;
     height: 100px;
     margin: 0px;
+   
     background: rgb(111,255,43);
     background: radial-gradient(circle, rgba(111,255,43,1) 30%, 
     rgba(182,184,221,1) 60%);
