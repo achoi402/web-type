@@ -37,6 +37,18 @@
 	
 }
 
+.desc {
+	text-align: center;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.typeface {
+font-size: 1.25vw;
+}
 
 
 
@@ -53,8 +65,9 @@ body {
 	font-weight: 100;
 	font-style: normal;
 	font-size: 1.5vw;
-	margin-left: 5vw;
-	margin-top: 10vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-top: 2vh;
 	line-height: 2em;
 
 
