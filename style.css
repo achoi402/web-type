@@ -15,8 +15,8 @@
 
 .nameshape {
 	display: flex;
-	width: 30vw;
-	height: 10vh;
+	width: 50vw;
+	height: auto;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -26,12 +26,12 @@
 	background-color: tomato;
 	color: lemonchiffon;
 
-	border-radius: 50px;			
+	border-radius: 75px;			
 }
 
 #name {
 	font-family: victorianna-it;
-	font-size: 4vw;
+	font-size: 10vw;
 	color: lemonchiffon;
 	text-align: center;
 	
@@ -68,7 +68,7 @@ body {
 	margin-left: 2vw;
 	margin-right: 2vw;
 	margin-top: 2vh;
-	line-height: 2em;
+	line-height: 1.5em;
 
 
 
@@ -84,13 +84,21 @@ body {
 	margin-top: 10vh;
 } */
 
+.kaomoji {
+	font-family: sans-serif;
+	font-style: bold;
+	font-weight: 700;
+	text-align: center;
+}
 
 .desc {
 
 	font-family: victorianna-thin;
 	font-style: normal;
 	font-size: 2vw;
+	width: 50vw;
 	color: tomato;
+	line-height: 1.5em;
 }
 
 #all {
@@ -104,7 +112,7 @@ h3 {
 	font-family: victorianna-thin;
 	font-size: 2.5vw;
 	width: 17vw;
-	height: 6vh;
+	height: auto;
 	text-align: center;
 
 	background-color: tomato;
@@ -127,3 +135,4 @@ a:hover {
 a {
 	text-decoration: none;
 }
+
