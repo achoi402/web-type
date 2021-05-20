@@ -24,7 +24,7 @@
 	
 
 	background-color: tomato;
-	color: #DAE3D9;
+	color: lemonchiffon;
 
 	border-radius: 50px;			
 }
@@ -32,7 +32,7 @@
 #name {
 	font-family: victorianna-it;
 	font-size: 4vw;
-	color: #DAE3D9;
+	color: lemonchiffon;
 	text-align: center;
 	
 }
@@ -43,7 +43,7 @@
 
 
 body {
-	background-color: #DAE3D9;
+	background-color:lemonchiffon;
 	width: auto;
 	height: 100vh;
 	/*background-color: #008FBE;*/
@@ -89,18 +89,18 @@ h3 {
 	text-align: center;
 
 	background-color: tomato;
-	color:  #DAE3D9;
+	color:  lemonchiffon;
 
 	border-radius: 50px;
 }
 
 
 li:hover {
-	color: lemonchiffon;
+	color: cornflowerblue;
 }
 
 a:hover {
-	color: lemonchiffon;
+	color: cornflowerblue;
 	font-family: victorianna-thin;
 }
 
