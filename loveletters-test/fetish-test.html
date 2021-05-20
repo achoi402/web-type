@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <link rel="stylesheet" href="fetish.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+
+   
+  </head>
+
+<body>
+
+  <h1>
+    Love Letters from Every Asian Fetishizer
+  </h1>
+  
+  <div class="Questions">
+
+    <form>
+      Write an East Asian ethnicity. <br>
+      <input type="text" id="identity" name="identity" placeholder="ex. Korean" required><br><br>
+      Your favorite East Asian celebrity or anime character. <br>
+      <input type="text" id="character" name="character" placeholder="ex. Jennie from Blackpink, Hinata Hyuga from Naruto"  required><br><br>
+      Favorite East Asian food. <br>
+      <input type="text" id="food" name="food" placeholder="ex. sushi" required><br><br>
+    </form>	
+  </div>
+
+  <p id="element2">(an empty text element)</p>
+  
+<section id="buttoncontainer">
+  <button id="button">
+    new letter
+  </button>
+</section>
+
+
+
+<div class= "background">
+  
+  
+
+<!-- Defining the behavior -->
+<script type="text/javascript">
+  
+  
+  var greeting = ["Ni hao", "Ahnyeong", "Konichiwa"];
+  var asian = [" Asian?", " Chinese?", " Korean?", " Japanese?"];
+  var comp = [
+       "cute",
+       "hot",
+       "sexy",
+       "exotic",
+       "fascinating",
+       "beautiful",
+       "unique",
+       "not like other girls",
+       "such a vixen",
+       "a minx",
+       "adorable",
+       "cute but sexy",
+       "pretty",
+       "attractive",
+       "kawaii",
+  ];
+  
+  var celebs = [
+  "Jennie from BlackPink", 
+  "Jisoo from BlackPink",
+  "Rose from BlackPink",
+  "Lisa from BlackPink",
+  "Kyulkyung from Pristin",
+  "Irene from Red Velvet",
+  "Naeun from A-Pink",
+  "Yoona from SNSD",
+  "Bae Suzy from Miss-A",
+  "Hani from EXID",
+  "Park Jiyeon from T-Ara",
+  "Hyeri from Girl's Day",
+  "Lee Hyori",
+  "Mai Sakurajima", 
+  "that one K-Pop idol",
+   "an anime girl", 
+   "Nayeon from Twice", 
+   "Dahyun from Twice", 
+   "Mina from Twice", 
+   "Sana from Twice",
+   "Jeongyeon from Twice",
+   "Tzuyu from Twice",
+   "Momo from Twice",
+    "Jihyo from Twice",
+    "Chaeyoung from Twice",
+    "Hyuna",
+    "Jeon Ji-yoon from 4minute",
+    "Son Ji-hyun from 4minute",
+    "Kwon Sohyun from 4minute",
+    "Heo Ga-yoon from 4minute",
+    "Krystal from f(x)",
+    "Tiffany",
+    "Taeyeon",
+    "I.U.",
+    "Hyoyeon",
+    "Seolhyun from AoA",
+    "Nami from One Piece",
+    "Hinata Hyuga from Naruto",
+    "Asuna from Sword Art Online",
+    "Mikasa from Attack on Titan",
+    "Boa from One Piece",
+    "Lucy from Fairy Tail",
+    "Akame from Akame ga Kill",
+    "Erina from Food Wars",
+    "Yumeko from Kakeguri",
+    "Midnight from My Hero Academia",
+    "Saeko from Highschool of the Dead",
+
+  ];
+
+  var act = [
+  "kiss you",
+      "take you out",
+      "go on a date",
+      "fuck you",
+      "do things with you",
+      "watch anime with you",
+      "watch K-dramas with you",
+      "hang out",
+      "anime and chill with you",
+      "K-drama and chill with you",
+      "Netflix and chill",
+      "talk about anime",
+      "talk about K-Pop",
+      "talk abuot BTS",
+      "talk about K-dramas",
+      "get to know you",
+      "touch you",
+      "feel you",
+      "be with you",
+      "date you",
+      "marry you",
+
+  ];
+  var food = [
+  "sushi",
+      "ramen",
+      "boba",
+      "K-BBQ",
+      "udon",
+      "tea",
+      "rice",
+      "Japanese food",
+      "Chinese food",
+      "Korean food",
+      "orange chicken",
+      "tofu",
+      "Asian food",
+      "sashimi",
+      "chow mein",
+      "fried rice",
+      "stir fry",
+      "hot pot",
+      "soy sauce",
+      "pho",
+      "spring rolls",
+      "scallion pancakes"
+];
+
+
+  var places = [
+  "know karate",
+       "know taekwondo",
+       "would make cute babies with you",
+       "can give you a green card",
+       "can speak conversational Japanese",
+       "can speak conversational Korean",
+       "can speak conversational Chinese",
+   ];
+
+   var gf = [
+   "girlfriend",
+       "waifu",
+       "wife",
+       "personal k-pop idol",
+       "anime girlfriend",
+        "China doll",
+        "token Asian girl",
+
+   ];
+
+   var creepy = [
+   "flattering",
+    "complimentary",
+    "kawaii",
+    "endearing",
+   ];
+
+   var thanks = [
+       "Arigatou!",
+       "Gamsahapnida!",
+       "Xie xie!",
+   ];
+
+
+ 
+ function loveLetter(){
+  document.getElementById("element2").innerHTML = greeting[Math.floor(Math.random()*greeting.length)]+ " What are you?" + 
+  asian[Math.floor(Math.random()*asian.length)] + " That's so " + comp[Math.floor(Math.random()*comp.length)] + "!"
+  + " You remind me of " + celebs[Math.floor(Math.random()*celebs.length)] + "! " + "I'd really like to " + 
+  act[Math.floor(Math.random()*act.length)] + ". " + "We can get " +  food[Math.floor(Math.random()*food.length)] + ". " +
+  "I just think you're " + comp[Math.floor(Math.random()*comp.length)] + " for an Asian girl. " + "I also " + 
+  places[Math.floor(Math.random()*places.length)] + " and want to make you my " + gf[Math.floor(Math.random()*gf.length)]+". "
+  + "I hope you found this " +  creepy[Math.floor(Math.random()*creepy.length)] + "! " +  thanks[Math.floor(Math.random()*thanks.length)];}
+
+loveLetter ();
+document.getElementById("button").onclick = loveLetter;
+
+fisherShuffle(colors);
+  
+function fisherShuffle(array){
+  for (let i = array.length - 1; i>0; i--){
+      let j = Math.floor(Math.random()*i); 
+      console.log("j is " + j + " and i is " + i);
+      let temp = array[i];
+      console.log("temp is " + temp);
+      array[i] = array[j]
+      array[j] = temp;
+      console.log(array);
+    
+
+
+  }
+  
+  
+}
+   
+
+
+
+
+
+  </script>
+   </div>
+ 
+</body>
+
+
+</html>
+
+
+  
