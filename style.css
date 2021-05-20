@@ -9,7 +9,7 @@
 }
 
 * {
-	color: white;
+	color: tomato;
 }
 
 
@@ -23,8 +23,8 @@
 
 	
 
-	background-color: white;
-	color: #aec6cf;
+	background-color: tomato;
+	color: #DAE3D9;
 
 	border-radius: 50px;			
 }
@@ -32,7 +32,7 @@
 #name {
 	font-family: victorianna-it;
 	font-size: 4vw;
-	color: #aec6cf;
+	color: #DAE3D9;
 	text-align: center;
 	
 }
@@ -40,8 +40,10 @@
 
 
 
+
+
 body {
-	background-color: #aec6cf;
+	background-color: #DAE3D9;
 	width: auto;
 	height: 100vh;
 	/*background-color: #008FBE;*/
@@ -86,13 +88,22 @@ h3 {
 
 	text-align: center;
 
-	background-color: white;
-	color:  #aec6cf;
+	background-color: tomato;
+	color:  #DAE3D9;
 
 	border-radius: 50px;
 }
 
 
+li:hover {
+	color: lemonchiffon;
+}
+
 a:hover {
-	color: tomato;
+	color: lemonchiffon;
+	font-family: victorianna-thin;
+}
+
+a {
+	text-decoration: none;
 }
