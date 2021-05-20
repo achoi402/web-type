@@ -1,66 +1,90 @@
+@font-face {
+	font-family: victorianna-thin;
+	src: url(fonts/vtf_victorianna_thin-webfont.woff)
+}
+
+@font-face {
+	font-family: victorianna-it;
+	src: url(fonts/vtf_victorianna_thin_talic-webfont.woff)
+}
+
 * {
 	color: white;
 }
 
-.aboutme {
-	line-height: 1em;
+
+.nameshape {
+
+	width: 30vw;
+	height: 10vh;
+
+	background-color: white;
+	color: #DAE3D9;
+
+	border-radius: 50px;			
 }
 
-h1 {
-	font-family: narly-outline, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 100px;
+#name {
+	font-family: victorianna-it;
+	font-size: 4vw;
+	color: #DAE3D9;
+	text-align: center;
 
-	margin-left: 5%;
-	padding-top: 5%;
-			
+	position: relative;
+	top: 3vh;
 }
+
+
 
 
 body {
-	background: rgb(255,215,219);
-	background: linear-gradient(0deg, rgba(255,215,219,1) 15%, rgba(149,173,214,1) 100%);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #DAE3D9;
 	width: auto;
 	height: 100vh;
 	/*background-color: #008FBE;*/
 
 	
-	font-family: bilo, sans-serif;
+	font-family: victorianna-it;
 	font-weight: 100;
 	font-style: normal;
-	padding: 5% 10% 5% 10%;
+	font-size: 1.5vw;
+	margin-left: 5vw;
+	line-height: 2em;
 }
 
+.all {
+	display: flex;
+	align-items: space-around;
+	justify-content: space-between;
+
+	width: 80vw;
+	margin:auto;
+	margin-top: 10vh;
+}
 
 
 .desc {
 	
-	font-family: narly, sans-serif;
-	font-weight: 700;
+	font-family: victorianna-thin;
 	font-style: normal;
-	font-size: 50px;
+	font-size: 2vw;
 	color: white;
+}
 
-	/* line-height: 1em; */
-	margin-left: 5%;
-	margin-top: -3%;
+h3 {
+	font-size: 2vw;
+	width: 15vw;
+	height: auto;
 
+	text-align: center;
 
+	background-color: white;
+	color: #DAE3D9;
+
+	border-radius: 50px;
 }
 
 
-#exercises {
-	margin-left: 5%;
-}
-
-#projects {
-	margin-left: 5%;
-} 
-
-p {
-	font-size: 20px;
-
+a:hover {
+	color: lightpink;
 }
