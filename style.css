@@ -14,12 +14,17 @@
 
 
 .nameshape {
-
+	display: flex;
 	width: 30vw;
 	height: 10vh;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+	
 
 	background-color: white;
-	color: #DAE3D9;
+	color: #aec6cf;
 
 	border-radius: 50px;			
 }
@@ -27,18 +32,16 @@
 #name {
 	font-family: victorianna-it;
 	font-size: 4vw;
-	color: #DAE3D9;
+	color: #aec6cf;
 	text-align: center;
-
-	position: relative;
-	top: 3vh;
+	
 }
 
 
 
 
 body {
-	background-color: #DAE3D9;
+	background-color: #aec6cf;
 	width: auto;
 	height: 100vh;
 	/*background-color: #008FBE;*/
@@ -49,7 +52,11 @@ body {
 	font-style: normal;
 	font-size: 1.5vw;
 	margin-left: 5vw;
+	margin-top: 10vh;
 	line-height: 2em;
+
+
+
 }
 
 .all {
@@ -64,11 +71,12 @@ body {
 
 
 .desc {
+
 	
 	font-family: victorianna-thin;
 	font-style: normal;
 	font-size: 2vw;
-	color: white;
+	color: tomato;
 }
 
 h3 {
@@ -79,12 +87,12 @@ h3 {
 	text-align: center;
 
 	background-color: white;
-	color: #DAE3D9;
+	color:  #aec6cf;
 
 	border-radius: 50px;
 }
 
 
 a:hover {
-	color: lightpink;
+	color: tomato;
 }
