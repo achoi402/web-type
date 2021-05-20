@@ -26,7 +26,7 @@ a:-webkit-any-link {
 body{
 	font-family: 'cloudy', sans-serif;
 	font-style: normal;
-	font-size: 30px;
+	font-size: 1.5vw;
 	line-height: 1.5;
 	margin-bottom: 4rem;
 	color:  var(--color);
@@ -66,7 +66,7 @@ section{
 
 
 #intro{
-	font-size: 45vh;
+	font-size: 40vh;
     width: 100vw;
     height: 100vh;
     margin: auto;
@@ -76,7 +76,6 @@ section{
 	line-height: 0.9;
 	text-align: center;
     width: 100vw;
-
   
 }
 
@@ -182,10 +181,11 @@ filter: blur(0.01em);
 
 
  .blurb {
-    font-family: basic-sans, sans-serif;
-    font-weight: 400;
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 700;   
     font-style: normal;
-    font-size: 30px;
+    font-size: 1.5vw;
+    line-height: 1.5em;
     width: 40vw;
     margin: auto;
     text-align: center;
@@ -333,14 +333,16 @@ input.axis-range{
 
 
 .puff {
-    font-family: basic-sans, sans-serif;
-    font-size: 20px;
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 700;   
+    font-style: normal;
+    font-size: 1vw;
     color: #FFF2C6;
     margin: auto;
     position: relative;
     right: 35vw;
     top: -2vh;
-    border: 3px solid #FFF2C6;
+    border: 0.25vw solid #FFF2C6;
     width: 5%;
     border-radius: 50%;
     padding: 0.5%;
@@ -371,8 +373,10 @@ input.axis-range{
 
 
 .deflate {
-    font-family: basic-sans, sans-serif;
-    font-size: 20px;
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 700;   
+    font-style: normal;
+    font-size: 1vw;
     position: relative;
     top: -3vh;
     background-color: #FFF2C6
@@ -387,6 +391,53 @@ input.axis-range{
 
 }
 
+
+
+@media screen and (max-width: 500px) {
+
+    body {
+        width: 200vw;
+        height: 100vh;
+    }
+
+    #intro {
+        width: 100vw;
+    }
+
+    #poof {
+        width: 100vw;
+    }
+
+    .deflate {
+        position: relative;
+        right: -70vw;
+        top: -30vh;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    body {
+        width: 200vw;
+        height: 100vh;
+    }
+
+    #intro {
+        width: 100vw;
+    }
+
+    #poof {
+        width: 100vw;
+    }
+
+    .deflate {
+        position: relative;
+        right: -70vw;
+        top: -30vh;
+    }
+
+}
 
 
 
