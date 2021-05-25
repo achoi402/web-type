@@ -226,13 +226,21 @@ input {
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: auto;
+    height: 100vh;
 
 }
 
 .about1 {
     margin: auto;
+
     width: 50vw;
+    height: auto;
+
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px #000000;
+
+    padding: 1%;
+
     font-size: 1.5vw;
     line-height: 1.5em;
 }

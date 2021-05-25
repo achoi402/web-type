@@ -19,13 +19,13 @@
 }
 
 body {
-    display: block;
 
-    width: 70vw;
+    
     line-height: 1.5em;
     
     font-family: compagnon-reg;
     font-size: 1vw;
+    width: 100vw;
     height: auto;
 
 }
@@ -35,11 +35,14 @@ body {
     flex-wrap: wrap;
     margin: auto;
     gap: 1em;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 1em;
+
+   
 }
 img {
-    border: 2px solid black;
+    
+    box-shadow: 2px 2px 4px #000000;
 }
 
 #about-button {
