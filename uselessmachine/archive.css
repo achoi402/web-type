@@ -1,0 +1,86 @@
+@font-face {
+    font-family: compagnon-bold;
+    src: url(compagnonbold.woff)
+}
+
+@font-face {
+    font-family: compagnon-med;
+    src: url(Compagnon-Medium.woff);
+}
+
+@font-face {
+    font-family: compagnon-reg;
+    src: url(Compagnon-Roman.woff2);
+}
+
+@font-face {
+    font-family: compagnon-it;
+    src: url(Compagnon-Italic.woff2)
+}
+
+body {
+    display: block;
+
+    width: 70vw;
+    line-height: 1.5em;
+    
+    font-family: compagnon-reg;
+    font-size: 1vw;
+    height: auto;
+
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 1em;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+img {
+    border: 2px solid black;
+}
+
+#about-button {
+    font-family: compagnon-reg;
+    font-size: 1.5vw;
+    background-color: white;
+    width:7vw;
+    height: 7vh;
+
+    text-decoration: none;
+}
+
+#about-button:hover {
+    font-family: compagnon-it;
+    background-color: yellow;
+}
+
+#archive-button {
+    font-family: compagnon-reg;
+    font-size: 1.5vw;
+    background-color: white;
+    width:7vw;
+    height: 7vh;
+}
+
+#archive-button:hover {
+    font-family: compagnon-it;
+    background-color: yellow;
+}
+
+#back-button {
+    font-family: compagnon-reg;
+    font-size: 1.5vw;
+    background-color: white;
+    width:7vw;
+    height: 7vh;
+
+}
+
+#back-button:hover {
+    font-family: compagnon-it;
+    background-color: yellow;
+}
+

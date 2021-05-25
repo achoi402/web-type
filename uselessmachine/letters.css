@@ -24,20 +24,50 @@ body {
     line-height: 1.5em;
     
     font-family: compagnon-reg;
-    font-size: 20px;
+    font-size: 1vw;
     height: auto;
 }
 
-#about {
-    font-size: 2vw;
+#about-button {
+    font-family: compagnon-reg;
+    font-size: 1.5vw;
+    background-color: white;
+    width:7vw;
+    height: 7vh;
+
+    text-decoration: none;
 }
 
-#back {
-    font-size: 2vw;
-}
-
-a:hover {
+#about-button:hover {
     font-family: compagnon-it;
+    background-color: yellow;
+}
+
+#archive-button {
+    font-family: compagnon-reg;
+    font-size: 1.5vw;
+    background-color: white;
+    width:7vw;
+    height: 7vh;
+}
+
+#archive-button:hover {
+    font-family: compagnon-it;
+    background-color: yellow;
+}
+
+#back-button {
+    font-family: compagnon-reg;
+    font-size: 1.5vw;
+    background-color: white;
+    width:7vw;
+    height: 7vh;
+
+}
+
+#back-button:hover {
+    font-family: compagnon-it;
+    background-color: yellow;
 }
 
 .container {
@@ -190,23 +220,21 @@ input {
 
 }
 
-#about:visited {
-    color: black;
-    text-decoration: none;
-    font-size: 2vw;
 
-}
-#back:visited {
-    color: black;
-    text-decoration: none;
+
+.colophon {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+
 }
 
 .about1 {
     margin: auto;
-    width: 40vw;
+    width: 50vw;
     font-size: 1.5vw;
     line-height: 1.5em;
-    margin-left: 30vw;
 }
 
 @media screen and (max-width: 500px) {
@@ -216,13 +244,6 @@ input {
         font-size: 1vw;
     }
 
-    #about {
-        font-size: 1vw;
-    }
-
-    #back {
-        font-size: 1vw;
-    }
 
     .blurb {
         font-size: 10px;
