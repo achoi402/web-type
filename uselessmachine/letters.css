@@ -30,9 +30,9 @@ body {
 
 #about-button {
     font-family: compagnon-reg;
-    font-size: 1.5vw;
+    font-size: 1.15vw;
     background-color: white;
-    width:7vw;
+    width:8vw;
     height: 7vh;
 
     text-decoration: none;
@@ -45,9 +45,9 @@ body {
 
 #archive-button {
     font-family: compagnon-reg;
-    font-size: 1.5vw;
+    font-size: 1.15vw;
     background-color: white;
-    width:7vw;
+    width:8vw;
     height: 7vh;
 }
 
